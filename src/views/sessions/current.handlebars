@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand btn btn-secondary rounded-pill fw-bold text-white" href="/products">Products</a>
+  </div>
+</nav>
+<div class="container min-vh-100">
+  <div class="row">
+    <div class="col-md-4 offset-md-4 py-5 my-5">
+      <h1 class="text-center p-3 fw-bold">User Profile</h1>
+      <div class="card shadow">
+        <div class="px-4 py-2">
+          <h2 class="text-center">{{user.full_name}}</h2>
+          <hr>
+        </div>
+        <div class="card-body px-4">
+          <p class="fs-5"><strong>Email: </strong>{{user.email}}</p>
+          <p class="fs-5"><strong>Role: </strong>{{user.role}}</p>
+          <p class="fs-5"><strong>UserID: </strong>{{user.id}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

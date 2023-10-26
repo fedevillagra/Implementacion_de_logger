@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand btn btn-secondary rounded-pill fw-bold text-white" href="/products">Products</a>
+  </div>
+</nav>
+
+<div class="container-fluid min-vh-100 d-flex flex-column justify-content-center align-items-center" style="background: #000428;
+    background: -webkit-linear-gradient(to bottom, #004e92, #000428);
+    background: linear-gradient(to bottom, #004e92, #000428);">
+
+  <h1 class="text-center text-white py-2">Messages</h1>
+  <div class="bg-dark p-4 text-white rounded-2">
+    <div>
+      <span id="user"></span>
+      <input type="text" id="chatBox" />
+    </div>
+    <div id="messagesLogs"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>
